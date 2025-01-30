@@ -1,3 +1,3 @@
 # capstone-project
-my senior seminar capstone project
-predicting an athlete's meet time based off of workouts time
+Will Fittipaldi wfittipaldi@westmont.edu
+My senior capstone project is making a predictor to predict an athlete's meet time based off of workout times. 
