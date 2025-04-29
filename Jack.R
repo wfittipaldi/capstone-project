@@ -1,7 +1,7 @@
 # Create the data frame
 data <- data.frame(
-  Dates = c("2/22 ", "3/8", "3/22" ,"4/4","4/12","4/17","4/25"),
-  Times = c(42.81, 50.29, 51.87,48.59,52.56,51.34,50.53)
+  Dates = c("3/8 ", "4/5","4/12", "4/17" ,"4/25","4/26"),
+  Times = c(153.01,156.85,153.76,153.77,154.59,156.01)
 )
 
 # Convert Dates to a factor (ensuring order is preserved)
@@ -29,6 +29,6 @@ ggplot(data, aes(x = Dates, y =Times )) +
   theme(plot.background = element_rect(color = "black", # Border color
                                        size = 1),
         plot.title = element_text(hjust = 0.5) ) +       # Border width 
-  labs(title = "David Oyebade: Hammer",
+  labs(title = "Jack: 800 meters",
        x = "Meet Date ",
-       y = "Hammer Throw (meters)")
+       y = "800 (meters)")

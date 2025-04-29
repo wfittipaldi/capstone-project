@@ -2,8 +2,8 @@
 
 # Create the data frame
 data <- data.frame(
-  Dates = c("2/22 #1", "2/22 #2", "3/22 #1", "3/22 #2","3/28"),
-  Times = c(209.3, 207.0, 204, 203.86,207.50)
+  Dates = c("2/22 #1", "2/22 #2", "3/22 #1", "3/22 #2","3/28","4/17"),
+  Times = c(209.3, 207.0, 204, 203.86,207.50,213.48)
 )
 
 # Convert Dates to a factor (ensuring order is preserved)
